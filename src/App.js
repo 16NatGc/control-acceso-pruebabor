@@ -7,12 +7,10 @@ import MaintenancePanel from './components/maintenance/MaintenancePanel';
 import GuardPanel from './components/guard/GuardPanel';
 import VisitorPanel from './components/visitor/VisitorPanel';
 import ProtectedRoute from './components/ProtectedRoute';
-import Navbar from './components/Navbar'; // Importar Navbar
 
 function App() {
   return (
     <Router>
-      <Navbar /> {/* Incluir Navbar */}
       <Routes>
         {/* Rutas públicas */}
         <Route path="/" element={<Login />} />
